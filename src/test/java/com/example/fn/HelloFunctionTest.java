@@ -13,7 +13,7 @@ public class HelloFunctionTest {
     @Test
     public void shouldReturnGreeting() {
         testing.givenEvent().enqueue();
-        testing.thenRun(HelloFunction.class, "handleRequest");
+        testing.thenRun(JavaToStream.class, "handleRequest");
 
         FnResult result = testing.getOnlyResult();
         assertEquals("Hello, world!", result.getBodyAsString());
