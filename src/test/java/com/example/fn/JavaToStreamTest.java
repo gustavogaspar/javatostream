@@ -16,7 +16,7 @@ public class JavaToStreamTest {
         testing.thenRun(JavaToStream.class, "handleRequest");
 
         FnResult result = testing.getOnlyResult();
-        assertEquals("Hello, world!", result.getBodyAsString());
+        assertEquals("Message Sent", result.getBodyAsString());
     }
 
 }
