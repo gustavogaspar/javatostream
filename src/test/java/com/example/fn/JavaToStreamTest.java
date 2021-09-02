@@ -5,7 +5,7 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-public class HelloFunctionTest {
+public class JavaToStreamTest {
 
     @Rule
     public final FnTestingRule testing = FnTestingRule.createDefault();
