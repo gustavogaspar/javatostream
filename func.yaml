@@ -4,4 +4,4 @@ version: 0.0.1
 runtime: java
 build_image: fnproject/fn-java-fdk-build:jdk11-1.0.133
 run_image: fnproject/fn-java-fdk:jre11-1.0.133
-cmd: com.example.fn.JavaToStreamFunction::handleRequest
+cmd: com.example.fn.JavaToStream::handleRequest
